@@ -1,3 +1,18 @@
-
-asdasdasd
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when '@app' %}
+      {% render block %}
+  {% endcase %}
+{% endfor %}
 {%- render 'cart-drawer' -%}
+{% schema %}
+{
+  "name": "t:sections.main-cart-items.name",
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ]
+}
+{% endschema %}
+
