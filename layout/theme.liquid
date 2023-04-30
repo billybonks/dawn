@@ -297,5 +297,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  <div data-app="mm" data-product="{{product.id}}"></div>
+</body>
 </html>
