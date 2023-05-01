@@ -40,17 +40,6 @@
     },
     "1682839952ecf7bd56": {
       "type": "apps",
-      "blocks": {
-        "52acf1aa-fa49-4025-a715-99434d928d53": {
-          "type": "shopify:\/\/apps\/a-cart\/blocks\/incentive-bar\/b2acb7fb-f789-45b1-aa57-f96d6fa5d3b4",
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "52acf1aa-fa49-4025-a715-99434d928d53"
-      ],
       "settings": {
         "include_margins": true
       }
