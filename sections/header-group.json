@@ -40,14 +40,8 @@
     },
     "1682839952ecf7bd56": {
       "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1683385499a00b3429": {
-      "type": "apps",
       "blocks": {
-        "4833f6a2-93c6-4538-b0ce-98b8d7cd2a36": {
+        "98c48fdf-6ec9-4b0e-aed5-878fb1440a3f": {
           "type": "shopify:\/\/apps\/a-cart\/blocks\/incentive-bar\/b2acb7fb-f789-45b1-aa57-f96d6fa5d3b4",
           "settings": {
             "color": "#000000"
@@ -55,8 +49,14 @@
         }
       },
       "block_order": [
-        "4833f6a2-93c6-4538-b0ce-98b8d7cd2a36"
+        "98c48fdf-6ec9-4b0e-aed5-878fb1440a3f"
       ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1683385499a00b3429": {
+      "type": "apps",
       "settings": {
         "include_margins": true
       }
