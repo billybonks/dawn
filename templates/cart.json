@@ -2,20 +2,25 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "168397067813410258": {
+      "type": "apps",
       "blocks": {
-        "4609499c-1bac-4642-b495-a9c5aedf2e4d": {
-          "type": "shopify:\/\/apps\/a-cart\/blocks\/app-block\/b2acb7fb-f789-45b1-aa57-f96d6fa5d3b4",
+        "7d6e72b9-30d9-4d99-b587-4ec2fd3714d5": {
+          "type": "shopify:\/\/apps\/a-cart\/blocks\/share-cart\/b2acb7fb-f789-45b1-aa57-f96d6fa5d3b4",
           "settings": {
-            "color": "#000000"
           }
         }
       },
       "block_order": [
-        "4609499c-1bac-4642-b495-a9c5aedf2e4d"
+        "7d6e72b9-30d9-4d99-b587-4ec2fd3714d5"
       ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "include_margins": true
       }
     },
     "cart-footer": {
@@ -70,6 +75,7 @@
   },
   "order": [
     "cart-items",
+    "168397067813410258",
     "cart-footer",
     "featured-collection"
   ]
